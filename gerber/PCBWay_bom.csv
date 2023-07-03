@@ -1,0 +1,40 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"C1, C13, C2, C7",4,22pF,C_0805_2012Metric,,smt
+"C10, C3, C9",3,1uF,C_0805_2012Metric,,smt
+"C11, C12, C16",3,100pF,C_0805_2012Metric,,smt
+"C14, C15, C17, C18, C19, C6",6,0.1uF,C_0805_2012Metric,,smt
+C4,1,22uF,C_0805_2012Metric,,smt
+"C5, C8",2,10uF,C_0805_2012Metric,,smt
+D2,1,LED,LED_0805_2012Metric,,smt
+F1,1,MF-NSMF110,Fuse_1206_3216Metric,,smt
+"H1, H2, H3, H4",4,MountingHole,MountingHole_6mm,,tht
+J1,1,2464,2464,,tht
+J2,1,Conn_01x02_Male,SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,,tht
+J3,1,Conn_01x06_Male,PinSocket_1x06_P2.54mm_Vertical,,tht
+J4,1,USB_Micro-10118193-0001LF,FCI_10118193-0001LF,,smt
+J5,1,Conn_01x04_Male,PinHeader_1x04_P2.54mm_Vertical,,tht
+J6,1,Conn_01x08_Female,JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,,smt
+J7,1,Conn_01x04_Female,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,,smt
+"Q2, Q3",2,BSS84,SOT-23,,smt
+"R1, R9",2,10k,R_0805_2012Metric,,smt
+"R10, R14",2,10M,R_0805_2012Metric,,smt
+R11,1,2k,R_0805_2012Metric,,smt
+R12,1,1k,R_0805_2012Metric,,smt
+R13,1,500R,R_0805_2012Metric,,smt
+"R15, R8",2,100k,R_0805_2012Metric,,smt
+"R16, R17",2,50k,R_0805_2012Metric,,smt
+"R18, R19",2,1M,R_0805_2012Metric,,smt
+"R2, R3",2,0,R_0805_2012Metric,,smt
+R4,1,10K,R_0805_2012Metric,,smt
+"R5, R6, R7",3,4.7k,R_0805_2012Metric,,smt
+S1,1,PTS526_SK15_SMTR2_LFS,PTS526SK15SMTR2LFS,,smt
+TP1,1,TestPoint,TestPoint_Pad_D1.0mm,,tht
+U1,1,RT9080-33GJ5,SOT-23-5_HandSoldering,,smt
+U2,1,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1U,,smt
+U3,1,ALT025-10E,SON65P250X250X80-7N,,tht
+U4,1,SLG47004V,STQFN-24-3.0X3.0-A,,smt
+U5,1,PCF8563TS,MSOP-8_3x3mm_P0.65mm,,smt
+U6,1,IN-PI22TAT5R5G5B,INPI22TAT5R5G5B,,smt
+U8,1,MB85RC64TA,SOIC-8_3.9x4.9mm_P1.27mm,,smt
+U9,1,SLG88103V,SLG88103V,,smt
+"Y1, Y2",2,ABS07-32.768KHZ-T,XTAL_ABS07-32.768KHZ-T,,smt

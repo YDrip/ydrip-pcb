@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 6.0,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "drill_out_of_range|111975000|101650000|725f8379-bca1-48b3-a497-8cb9399e2e84|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|111975000|101650000|d9f66fa3-62ef-4bf3-8c9c-fb3cf53030a3|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|111975000|108250000|5f53d6b0-9d24-49a8-9716-7de3149fb28f|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|111975000|108250000|6f76a277-6764-4597-8de1-9bc51291eebc|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -106,24 +111,26 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
+        "min_clearance": 0.12,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_through_hole_diameter": 0.6,
+        "min_track_width": 0.09999999999999999,
         "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.44999999999999996,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
-        0.25,
-        0.3,
+        0.21,
+        0.254,
+        0.33,
         0.4,
+        0.5,
         0.5,
         0.6,
         0.7,
@@ -138,15 +145,7 @@
         },
         {
           "diameter": 1.0,
-          "drill": 0.5
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.8
-        },
-        {
-          "diameter": 2.0,
-          "drill": 1.0
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false,
@@ -159,7 +158,17 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_connected|10160|346710|6d0deb57-ab88-4d4e-bf82-03415b18325a|00000000-0000-0000-0000-000000000000",
+      "pin_not_connected|10160|372110|62515545-e9e3-46ec-8b8b-aef5a1ac21d6|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1117600|863600|b30149be-7c05-409c-9024-0e5ed974c433|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1257300|800100|17ebe6ee-4451-4ce7-a78b-2b8eeee4c010|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1587500|825500|d222e841-bacf-45e2-85c1-526446fdb8a8|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|434340|304800|dd605783-367a-4e23-9dcf-4ab1e5ec8b2a|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|469900|304800|51e118cb-df66-4245-a5b1-5a0daa5e0bf8|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|584200|419100|22f22c4c-fa1d-4d14-97b9-9b7f7dd32a63|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|939800|889000|b30149be-7c05-409c-9024-0e5ed974c433|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -375,8 +384,8 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.3,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.4,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.4,
         "line_style": 0,
@@ -385,7 +394,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.45,
         "wire_width": 6.0
@@ -402,7 +411,7 @@
       "idf": "",
       "netlist": "water_meter.net",
       "specctra_dsn": "",
-      "step": "water_meter.step",
+      "step": "water_meter_v3.step",
       "vrml": "water_meter.wrl"
     },
     "page_layout_descr_file": ""
@@ -449,6 +458,10 @@
     [
       "a2be46b5-893a-4b9a-87e3-873ec14c725c",
       ""
+    ],
+    [
+      "b8b3fa3b-000d-42dd-97ba-0ca18c631bf7",
+      "Sensors"
     ]
   ],
   "text_variables": {}
