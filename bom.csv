@@ -1,0 +1,41 @@
+Source:,/home/nabil/Projects/water_meter/hardware/water_meter/water_meter.kicad_sch,,,,,
+Date:,Tue 11 Apr 2023 01:28:04 PM EDT,,,,,
+Tool:,Eeschema 6.0.11-2627ca5db0~126~ubuntu20.04.1,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,52,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,Footprint,Digikey Part Number,Mouser Part Number
+1,4,"C1, C2, C7, C13",22pF,Capacitor_SMD:C_0805_2012Metric,,
+2,3,"C3, C9, C10",1uF,Capacitor_SMD:C_0805_2012Metric,,
+3,1,C4,22uF,Capacitor_SMD:C_0805_2012Metric,,
+4,2,"C5, C8",10uF,Capacitor_SMD:C_0805_2012Metric,,
+5,4,"C6, C14, C15, C16",0.1uF,Capacitor_SMD:C_0805_2012Metric,,
+6,2,"C11, C12",100pF,Capacitor_SMD:C_0805_2012Metric,,
+7,0,D2,LED,LED_SMD:LED_0805_2012Metric,,
+8,0,F1,MF-NSMF110,Fuse:Fuse_1206_3216Metric,,652-MF-NSMF110-2
+10,1,J1,2464,Nabil:2464,,534-2464
+11,1,J3,Conn_01x06_Male,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,,
+12,0,J4,USB_Micro-10118193-0001LF,Nabil:FCI_10118193-0001LF,,649-10118193-0001LF
+13,1,J5,Conn_01x02_Male,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,,
+14,1,J8,Conn_01x02_Male,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,,
+15,2,"Q1, Q2",BSS84,Package_TO_SOT_SMD:SOT-23,,771-BSS84AK215
+16,2,"R1, R9",10k,Resistor_SMD:R_0805_2012Metric,,
+17,2,"R2, R3",0,Resistor_SMD:R_0805_2012Metric,,
+18,1,R4,10K,Resistor_SMD:R_0805_2012Metric,,
+19,2,"R5, R7",4.7k,Resistor_SMD:R_0805_2012Metric,,
+20,1,R6,5.1K,Resistor_SMD:R_0805_2012Metric,,
+21,2,"R8, R10",100k,Resistor_SMD:R_0805_2012Metric,,
+22,3,"R11, R12, R13",500R,Resistor_SMD:R_0805_2012Metric,,
+24,1,U2,ESP32-S3-WROOM-1,Espressif:ESP32-S3-WROOM-1U,,356-ESP32S3WROM1UN16
+26,1,U4,SLG46826G,Nabil:SOP65P640X120-20N,,724-SLG46826G
+27,1,U5,PCF8563TS,Package_SO:MSOP-8_3x3mm_P0.65mm,,771-PCF8563TS/5118
+28,1,U6,IN-PI22TAT5R5G5B,Nabil:INPI22TAT5R5G5B,,743-IN-PI22TAT5R5G5B
+29,1,U7,10413_lens,Nabil:10414_Lens,,962-10413 
+30,1,U8,MB85RC64TA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,249-85C64TAPNFGBDR1
+31,2,"Y1, Y2",ABS07-32.768KHZ-T,Nabil:XTAL_ABS07-32.768KHZ-T,,815-ABS07-32.768KHZT
+,,,,,,
+,1,,SMA Antenna CAB.721,,,960-CAB721 
+,,, Pulse Electronics Antenna W1030,,,673-W1030
