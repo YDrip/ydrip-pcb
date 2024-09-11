@@ -1,40 +1,39 @@
 ﻿designator,quantity,value,pack,mpn,mount_type
-"C1, C13, C2, C7",4,22pF,C_0805_2012Metric,,smt
-"C10, C3, C9",3,1uF,C_0805_2012Metric,,smt
-"C11, C12, C16",3,100pF,C_0805_2012Metric,,smt
-"C14, C15, C17, C18, C19, C6",6,0.1uF,C_0805_2012Metric,,smt
-C4,1,22uF,C_0805_2012Metric,,smt
-"C5, C8",2,10uF,C_0805_2012Metric,,smt
-D2,1,LED,LED_0805_2012Metric,,smt
-F1,1,MF-NSMF110,Fuse_1206_3216Metric,,smt
-"H1, H2, H3, H4",4,MountingHole,MountingHole_6mm,,tht
-J1,1,2464,2464,,tht
-J2,1,Conn_01x02_Male,SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,,tht
-J3,1,Conn_01x06_Male,PinSocket_1x06_P2.54mm_Vertical,,tht
-J4,1,USB_Micro-10118193-0001LF,FCI_10118193-0001LF,,smt
-J5,1,Conn_01x04_Male,PinHeader_1x04_P2.54mm_Vertical,,tht
-J6,1,Conn_01x08_Female,JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,,smt
-J7,1,Conn_01x04_Female,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,,smt
-"Q2, Q3",2,BSS84,SOT-23,,smt
-"R1, R9",2,10k,R_0805_2012Metric,,smt
-"R10, R14",2,10M,R_0805_2012Metric,,smt
-R11,1,2k,R_0805_2012Metric,,smt
-R12,1,1k,R_0805_2012Metric,,smt
-R13,1,500R,R_0805_2012Metric,,smt
-"R15, R8",2,100k,R_0805_2012Metric,,smt
-"R16, R17",2,50k,R_0805_2012Metric,,smt
-"R18, R19",2,1M,R_0805_2012Metric,,smt
-"R2, R3",2,0,R_0805_2012Metric,,smt
-R4,1,10K,R_0805_2012Metric,,smt
-"R5, R6, R7",3,4.7k,R_0805_2012Metric,,smt
-S1,1,PTS526_SK15_SMTR2_LFS,PTS526SK15SMTR2LFS,,smt
-TP1,1,TestPoint,TestPoint_Pad_D1.0mm,,tht
-U1,1,RT9080-33GJ5,SOT-23-5_HandSoldering,,smt
-U2,1,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1U,,smt
-U3,1,ALT025-10E,SON65P250X250X80-7N,,tht
-U4,1,SLG47004V,STQFN-24-3.0X3.0-A,,smt
-U5,1,PCF8563TS,MSOP-8_3x3mm_P0.65mm,,smt
-U6,1,IN-PI22TAT5R5G5B,INPI22TAT5R5G5B,,smt
-U8,1,MB85RC64TA,SOIC-8_3.9x4.9mm_P1.27mm,,smt
-U9,1,SLG88103V,SLG88103V,,smt
-"Y1, Y2",2,ABS07-32.768KHZ-T,XTAL_ABS07-32.768KHZ-T,,smt
+"C1, C1, C1, C1, C13, C13, C13, C13, C2, C2, C2, C2, C7, C7, C7, C7",16,22pF,C_0805_2012Metric,,smt
+"C10, C10, C10, C10, C3, C3, C3, C3, C9, C9, C9, C9",12,1uF,C_0805_2012Metric,,smt
+"C11, C11, C11, C11, C12, C12, C12, C12, C16, C16, C16, C16",12,100pF,C_0805_2012Metric,,smt
+"C14, C14, C14, C14, C15, C15, C15, C15, C17, C17, C17, C17, C18, C18, C18, C18, C19, C19, C19, C19, C20, C20, C20, C20, C6, C6, C6, C6",28,0.1uF,C_0805_2012Metric,,smt
+"C4, C4, C4, C4",4,22uF,C_0805_2012Metric,,smt
+"C5, C5, C5, C5, C8, C8, C8, C8",8,10uF,C_0805_2012Metric,,smt
+"D2, D2, D2, D2",4,LED,LED_0805_2012Metric,,smt
+"F1, F1, F1, F1",4,MF-NSMF110,Fuse_1206_3216Metric,,smt
+"H1, H1, H1, H1, H2, H2, H2, H2, H3, H3, H3, H3, H4, H4, H4, H4",16,MountingHole,MountingHole_3.2mm_M3,,tht
+"J1, J1, J1, J1",4,Conn_01x02_Female,JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical,,smt
+"J3, J3, J3, J3",4,Conn_01x06_Male,PinSocket_1x06_P2.54mm_Vertical,,tht
+"J4, J4, J4, J4",4,USB_B_Micro,USB_Micro-B_Molex-105133-0001,,smt
+"J5, J5, J5, J5",4,Conn_01x04_Male,PinHeader_1x04_P2.54mm_Vertical,,tht
+"J6, J6, J6, J6",4,2465,2465,,tht
+"KiKit_MB_10_1, KiKit_MB_10_10, KiKit_MB_10_2, KiKit_MB_10_3, KiKit_MB_10_4, KiKit_MB_10_5, KiKit_MB_10_6, KiKit_MB_10_7, KiKit_MB_10_8, KiKit_MB_10_9, KiKit_MB_11_1, KiKit_MB_11_10, KiKit_MB_11_2, KiKit_MB_11_3, KiKit_MB_11_4, KiKit_MB_11_5, KiKit_MB_11_6, KiKit_MB_11_7, KiKit_MB_11_8, KiKit_MB_11_9, KiKit_MB_12_1, KiKit_MB_12_10, KiKit_MB_12_2, KiKit_MB_12_3, KiKit_MB_12_4, KiKit_MB_12_5, KiKit_MB_12_6, KiKit_MB_12_7, KiKit_MB_12_8, KiKit_MB_12_9, KiKit_MB_13_1, KiKit_MB_13_10, KiKit_MB_13_2, KiKit_MB_13_3, KiKit_MB_13_4, KiKit_MB_13_5, KiKit_MB_13_6, KiKit_MB_13_7, KiKit_MB_13_8, KiKit_MB_13_9, KiKit_MB_14_1, KiKit_MB_14_10, KiKit_MB_14_2, KiKit_MB_14_3, KiKit_MB_14_4, KiKit_MB_14_5, KiKit_MB_14_6, KiKit_MB_14_7, KiKit_MB_14_8, KiKit_MB_14_9, KiKit_MB_15_1, KiKit_MB_15_10, KiKit_MB_15_2, KiKit_MB_15_3, KiKit_MB_15_4, KiKit_MB_15_5, KiKit_MB_15_6, KiKit_MB_15_7, KiKit_MB_15_8, KiKit_MB_15_9, KiKit_MB_16_1, KiKit_MB_16_10, KiKit_MB_16_2, KiKit_MB_16_3, KiKit_MB_16_4, KiKit_MB_16_5, KiKit_MB_16_6, KiKit_MB_16_7, KiKit_MB_16_8, KiKit_MB_16_9, KiKit_MB_17_1, KiKit_MB_17_10, KiKit_MB_17_2, KiKit_MB_17_3, KiKit_MB_17_4, KiKit_MB_17_5, KiKit_MB_17_6, KiKit_MB_17_7, KiKit_MB_17_8, KiKit_MB_17_9, KiKit_MB_18_1, KiKit_MB_18_10, KiKit_MB_18_2, KiKit_MB_18_3, KiKit_MB_18_4, KiKit_MB_18_5, KiKit_MB_18_6, KiKit_MB_18_7, KiKit_MB_18_8, KiKit_MB_18_9, KiKit_MB_19_1, KiKit_MB_19_10, KiKit_MB_19_2, KiKit_MB_19_3, KiKit_MB_19_4, KiKit_MB_19_5, KiKit_MB_19_6, KiKit_MB_19_7, KiKit_MB_19_8, KiKit_MB_19_9, KiKit_MB_1_1, KiKit_MB_1_10, KiKit_MB_1_2, KiKit_MB_1_3, KiKit_MB_1_4, KiKit_MB_1_5, KiKit_MB_1_6, KiKit_MB_1_7, KiKit_MB_1_8, KiKit_MB_1_9, KiKit_MB_20_1, KiKit_MB_20_10, KiKit_MB_20_2, KiKit_MB_20_3, KiKit_MB_20_4, KiKit_MB_20_5, KiKit_MB_20_6, KiKit_MB_20_7, KiKit_MB_20_8, KiKit_MB_20_9, KiKit_MB_21_1, KiKit_MB_21_10, KiKit_MB_21_2, KiKit_MB_21_3, KiKit_MB_21_4, KiKit_MB_21_5, KiKit_MB_21_6, KiKit_MB_21_7, KiKit_MB_21_8, KiKit_MB_21_9, KiKit_MB_22_1, KiKit_MB_22_10, KiKit_MB_22_2, KiKit_MB_22_3, KiKit_MB_22_4, KiKit_MB_22_5, KiKit_MB_22_6, KiKit_MB_22_7, KiKit_MB_22_8, KiKit_MB_22_9, KiKit_MB_23_1, KiKit_MB_23_10, KiKit_MB_23_2, KiKit_MB_23_3, KiKit_MB_23_4, KiKit_MB_23_5, KiKit_MB_23_6, KiKit_MB_23_7, KiKit_MB_23_8, KiKit_MB_23_9, KiKit_MB_24_1, KiKit_MB_24_10, KiKit_MB_24_2, KiKit_MB_24_3, KiKit_MB_24_4, KiKit_MB_24_5, KiKit_MB_24_6, KiKit_MB_24_7, KiKit_MB_24_8, KiKit_MB_24_9, KiKit_MB_25_2, KiKit_MB_25_3, KiKit_MB_25_4, KiKit_MB_25_5, KiKit_MB_25_6, KiKit_MB_26_2, KiKit_MB_26_3, KiKit_MB_26_4, KiKit_MB_26_5, KiKit_MB_26_6, KiKit_MB_27_2, KiKit_MB_27_3, KiKit_MB_27_4, KiKit_MB_27_5, KiKit_MB_27_6, KiKit_MB_28_2, KiKit_MB_28_3, KiKit_MB_28_4, KiKit_MB_28_5, KiKit_MB_28_6, KiKit_MB_29_2, KiKit_MB_29_3, KiKit_MB_29_4, KiKit_MB_29_5, KiKit_MB_29_6, KiKit_MB_2_1, KiKit_MB_2_10, KiKit_MB_2_2, KiKit_MB_2_3, KiKit_MB_2_4, KiKit_MB_2_5, KiKit_MB_2_6, KiKit_MB_2_7, KiKit_MB_2_8, KiKit_MB_2_9, KiKit_MB_30_2, KiKit_MB_30_3, KiKit_MB_30_4, KiKit_MB_30_5, KiKit_MB_30_6, KiKit_MB_31_2, KiKit_MB_31_3, KiKit_MB_31_4, KiKit_MB_31_5, KiKit_MB_31_6, KiKit_MB_32_2, KiKit_MB_32_3, KiKit_MB_32_4, KiKit_MB_32_5, KiKit_MB_32_6, KiKit_MB_3_1, KiKit_MB_3_10, KiKit_MB_3_2, KiKit_MB_3_3, KiKit_MB_3_4, KiKit_MB_3_5, KiKit_MB_3_6, KiKit_MB_3_7, KiKit_MB_3_8, KiKit_MB_3_9, KiKit_MB_4_1, KiKit_MB_4_10, KiKit_MB_4_2, KiKit_MB_4_3, KiKit_MB_4_4, KiKit_MB_4_5, KiKit_MB_4_6, KiKit_MB_4_7, KiKit_MB_4_8, KiKit_MB_4_9, KiKit_MB_5_1, KiKit_MB_5_10, KiKit_MB_5_2, KiKit_MB_5_3, KiKit_MB_5_4, KiKit_MB_5_5, KiKit_MB_5_6, KiKit_MB_5_7, KiKit_MB_5_8, KiKit_MB_5_9, KiKit_MB_6_1, KiKit_MB_6_10, KiKit_MB_6_2, KiKit_MB_6_3, KiKit_MB_6_4, KiKit_MB_6_5, KiKit_MB_6_6, KiKit_MB_6_7, KiKit_MB_6_8, KiKit_MB_6_9, KiKit_MB_7_1, KiKit_MB_7_10, KiKit_MB_7_2, KiKit_MB_7_3, KiKit_MB_7_4, KiKit_MB_7_5, KiKit_MB_7_6, KiKit_MB_7_7, KiKit_MB_7_8, KiKit_MB_7_9, KiKit_MB_8_1, KiKit_MB_8_10, KiKit_MB_8_2, KiKit_MB_8_3, KiKit_MB_8_4, KiKit_MB_8_5, KiKit_MB_8_6, KiKit_MB_8_7, KiKit_MB_8_8, KiKit_MB_8_9, KiKit_MB_9_1, KiKit_MB_9_10, KiKit_MB_9_2, KiKit_MB_9_3, KiKit_MB_9_4, KiKit_MB_9_5, KiKit_MB_9_6, KiKit_MB_9_7, KiKit_MB_9_8, KiKit_MB_9_9",280,NPTH,NPTH,,tht
+"Q1, Q1, Q1, Q1, Q2, Q2, Q2, Q2",8,BSS84,SOT-23,,smt
+"Q3, Q3, Q3, Q3, Q4, Q4, Q4, Q4",8,MMBT3904,SOT-23,,smt
+"R1, R1, R1, R1, R12, R12, R12, R12, R20, R20, R20, R20, R9, R9, R9, R9",16,10k,R_0805_2012Metric,,smt
+"R10, R10, R10, R10, R14, R14, R14, R14",8,10M,R_0805_2012Metric,,smt
+"R11, R11, R11, R11",4,2k,R_0805_2012Metric,,smt
+"R13, R13, R13, R13",4,500R,R_0805_2012Metric,,smt
+"R15, R15, R15, R15, R8, R8, R8, R8",8,100k,R_0805_2012Metric,,smt
+"R16, R16, R16, R16, R17, R17, R17, R17",8,50k,R_0805_2012Metric,,smt
+"R18, R18, R18, R18, R19, R19, R19, R19",8,1M,R_0805_2012Metric,,smt
+"R2, R2, R2, R2, R3, R3, R3, R3",8,0,R_0805_2012Metric,,smt
+"R21, R21, R21, R21, R22, R22, R22, R22",8,10K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,smt
+"R4, R4, R4, R4",4,10K,R_0805_2012Metric,,smt
+"R5, R5, R5, R5, R6, R6, R6, R6, R7, R7, R7, R7",12,4.7k,R_0805_2012Metric,,smt
+"S1, S1, S1, S1, S2, S2, S2, S2",8,PTS526_SK15_SMTR2_LFS,PTS526SK15SMTR2LFS,,smt
+"U1, U1, U1, U1",4,RT9080-33GJ5,SOT-23-5_HandSoldering,,smt
+"U2, U2, U2, U2",4,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1U,,smt
+"U3, U3, U3, U3",4,ALT021-10E,SON65P250X250X80-7N,,tht
+"U4, U4, U4, U4",4,SLG47004V,STQFN-24-3.0X3.0-A,,smt
+"U5, U5, U5, U5",4,PCF8563TS,MSOP-8_3x3mm_P0.65mm,,smt
+"U6, U6, U6, U6",4,IN-PI22TAT5R5G5B,INPI22TAT5R5G5B,,smt
+"U8, U8, U8, U8",4,MB85RC64TA,SOIC-8_3.9x4.9mm_P1.27mm,,smt
+"U9, U9, U9, U9",4,SLG88103V,SLG88103V,,smt
+"Y1, Y1, Y1, Y1, Y2, Y2, Y2, Y2",8,ABS07-32.768KHZ-T,XTAL_ABS07-32.768KHZ-T,,smt
